@@ -1,0 +1,52 @@
+@keyframes load {
+    from {filter: opacity(20%);}
+    to {filter: opacity(100%);}
+  }
+  
+
+body{
+    background-color: #DAF5FF;
+    padding: 2% 8% 2% 8%;
+}
+
+#calback{
+    margin: 2% auto 2% auto;
+    background-color: #03001C;
+    border-color: #FEFF86;
+    border-width: 0.1rem;
+    color: aliceblue;
+    min-width: 21rem;
+    min-height: 35rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    animation-name: load;
+    animation-duration: 2s;
+
+}
+
+.btn{
+    border-radius: 20%;
+    padding: 25%;
+    margin: 0px;
+    font-weight: bold;
+    max-height: 4rem;
+    max-width: 5rem;
+
+
+
+}
+#bo{
+    margin-top: 1rem;
+}
+#answer{
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-left: 13%;
+    margin-bottom: 15%;
+    margin-top: 2%;
+}
+
+#rule{
+    background-color: #FEFF86;
+    height: 5%;
+    margin: 0%;
+}
